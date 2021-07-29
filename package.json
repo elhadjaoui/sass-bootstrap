@@ -1,0 +1,21 @@
+{
+  "name": "nothing",
+  "version": "1.0.0",
+  "description": "Portfolio with bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "sass --watch scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed El Hadjaoui",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}

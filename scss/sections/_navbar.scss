@@ -1,0 +1,24 @@
+@use '../components/mixins' as G;
+
+.menu
+{
+    @include G.gradient;
+    li
+    {
+        padding: 0 0.7rem;
+        a
+        {
+            color: white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+            transition: 0.3s ease all;
+            &:hover
+            {
+                // font-size: 20px;
+                transition: 0.3s ease all;
+            }
+
+        }
+    }
+   
+}
