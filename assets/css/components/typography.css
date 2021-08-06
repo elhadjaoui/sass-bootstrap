@@ -4370,7 +4370,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.5rem;
   font-size: 1rem;
   color: #212529;
   text-align: left;
@@ -4453,7 +4453,7 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .accordion-flush .accordion-collapse {
@@ -10784,6 +10784,27 @@ textarea.form-control-lg {
   height: 0.7rem;
   display: block;
   background-color: #9926f0;
+}
+
+.services-head {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.display-3--title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #9926f0, #212529);
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
 }
 
 /*# sourceMappingURL=typography.css.map */

@@ -1,4 +1,5 @@
 @use '../custom'as *;
+@use '../components/mixins'as *;
 
 
 .display-2 {
@@ -17,15 +18,15 @@
         font-size: 1rem;
         text-transform: none;
         margin-top: 1.2rem;
-        @include media-breakpoint-up(lg)
-        {
+
+        @include media-breakpoint-up(lg) {
             font-size: 1.5rem;
         }
 
     }
 }
-.heading-line::before
-{
+
+.heading-line::before {
     content: "";
     width: 10rem;
     height: 0.1rem;
@@ -33,12 +34,40 @@
     display: block;
     background-color: $primary;
 }
-.heading-line::after
-{
+
+.heading-line::after {
     content: "";
     width: 2rem;
     margin: 0 auto;
     height: 0.7rem;
     display: block;
     background-color: $primary;
+}
+
+.services-head {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+//! DISPLAY 3
+.display-3 {
+
+
+    &--title {
+        text-transform: capitalize;
+        font-size: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.8rem;
+        }
+
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(to right, $primary, $dark);
+        -webkit-text-fill-color: transparent;
+        font-family: 'Poppins',
+        sans-serif;
+        font-weight: 700;
+    }
+
 }
