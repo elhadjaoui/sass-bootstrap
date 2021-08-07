@@ -2,7 +2,7 @@
 a portfolio built with bootstrap and sass (fully responsive)
 
 
-### how to run 
+### To compile the sass files
 
 > $ npm run compile_sass 
 
