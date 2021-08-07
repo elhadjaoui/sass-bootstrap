@@ -1,5 +1,5 @@
 # sass-bootstrap
-a portfolio built with bootstrap and sass 
+a portfolio built with bootstrap and sass (fully responsive)
 
 
 ### how to run 
